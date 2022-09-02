@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: darkslategray;
+}
+section {
+    background-color: black;
+    width: 60vw;
+    height: 30vh;
+    margin: 10vh auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes snake {
+    0% {
+        transform: translatey(-20px);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translatey(20px);
+        opacity: .9;
+    }
+}
+div {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    margin: .6rem;
+    animation-name: snake;
+    animation-duration: 750ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+div:nth-of-type(1) {
+    background-color: red;
+    animation-delay: -1000ms;
+}
+div:nth-of-type(2) {
+    background-color: orange;
+    animation-delay: -800ms;
+}
+div:nth-of-type(3) {
+    background-color: yellow;
+    animation-delay: -600ms;
+}
+div:nth-of-type(4) {
+    background-color: green;
+    animation-delay: -400ms;
+}
+div:nth-of-type(5) {
+    background-color: blue;
+    animation-delay: -200ms;
+}
