@@ -1,6 +1,6 @@
 20220901_006_snake
 
-Link zur Seite: 
+Link zur Seite: https://weimingtay.github.io/20220901_006_schlange/
 
 ## Aufgabenstellung
 
